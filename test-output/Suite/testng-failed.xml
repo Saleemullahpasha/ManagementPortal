@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.modules.airtime.AirTimeBundleCategory">
+        <methods>
+          <include name="DeleteAirCategory"/>
+          <include name="UpdateAirtimeCat"/>
+          <include name="AddBundleCat"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.airtime.AirTimeBundleCategory -->
+      <class name="com.modules.DynamicCompany">
+        <methods>
+          <include name="DelCompany"/>
+          <include name="UpdateCompany"/>
+          <include name="AddCompany"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.DynamicCompany -->
+      <class name="com.modules.FAQ">
+        <methods>
+          <include name="AddFAQ"/>
+          <include name="UpdateFAQ"/>
+          <include name="DeleteFAQ"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.FAQ -->
+      <class name="com.modules.AppPromotion">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="DelPromotion"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.AppPromotion -->
+      <class name="com.modules.appmenu.AppMenu">
+        <methods>
+          <include name="UpdateMenu"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="DelMenu"/>
+          <include name="getResult"/>
+          <include name="AddMenu"/>
+        </methods>
+      </class> <!-- com.modules.appmenu.AppMenu -->
+      <class name="com.modules.company.CompanyType">
+        <methods>
+          <include name="UpdateComType"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="AddCompanyType"/>
+          <include name="getResult"/>
+          <include name="DelCompType"/>
+        </methods>
+      </class> <!-- com.modules.company.CompanyType -->
+      <class name="com.modules.company.Company">
+        <methods>
+          <include name="DelCompany"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="AddCompany"/>
+          <include name="UpdateCompany"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.company.Company -->
+      <class name="com.modules.GiftAnimation">
+        <methods>
+          <include name="DeleteGiftTest"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.GiftAnimation -->
+      <class name="com.modules.ewp.EwpSubType">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="DelSubType"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.ewp.EwpSubType -->
+      <class name="com.modules.ewp.EwpProfile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="DelProfile"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.ewp.EwpProfile -->
+      <class name="com.modules.LandingPageBanner">
+        <methods>
+          <include name="DeleteBanner"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+          <include name="UpdateBanner"/>
+        </methods>
+      </class> <!-- com.modules.LandingPageBanner -->
+      <class name="com.modules.airtime.AirTimeBundle">
+        <methods>
+          <include name="UpdateBundle"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="AddBundle"/>
+          <include name="DeleteBundle"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.airtime.AirTimeBundle -->
+      <class name="com.modules.ewp.EwpSuperType">
+        <methods>
+          <include name="UpdateSType"/>
+          <include name="AddSuperType"/>
+          <include name="DelSType"/>
+        </methods>
+      </class> <!-- com.modules.ewp.EwpSuperType -->
+      <class name="com.modules.VersionHistory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="UpdateVersion"/>
+          <include name="getResult"/>
+          <include name="DeleteVersion"/>
+        </methods>
+      </class> <!-- com.modules.VersionHistory -->
+      <class name="com.modules.company.CompanyCategory">
+        <methods>
+          <include name="DeleteCat"/>
+          <include name="UpdateCat"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.modules.company.CompanyCategory -->
+      <class name="com.modules.BankTest">
+        <methods>
+          <include name="AddBankTest"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="getResult"/>
+          <include name="UpdateBankTest"/>
+          <include name="DeleteBank"/>
+        </methods>
+      </class> <!-- com.modules.BankTest -->
+      <class name="com.modules.appmenu.AppSubMenu">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="AddSubMenu"/>
+          <include name="getResult"/>
+          <include name="DelSubmenu"/>
+          <include name="UpdateSubmenu"/>
+        </methods>
+      </class> <!-- com.modules.appmenu.AppSubMenu -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
