@@ -99,7 +99,7 @@ public class LoginScenarios extends ExtentReportBaseClass  {
 		
 	     }
 	
-   
+   /**
 	@Test
    	public void LogoutTest() {
 		test = extent.createTest("LogoutTest", "Testing Logout"); 
@@ -114,7 +114,7 @@ public class LoginScenarios extends ExtentReportBaseClass  {
 		
 	     }
 	
-	
+	*/
 	
 
 }
