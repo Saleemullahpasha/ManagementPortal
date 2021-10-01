@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.modules.BlockedIMEI"/>
       <class name="com.login.LoginScenarios"/>
+   <!--     
+      <class name="com.modules.BlockedIMEI"/>
       <class name="com.modules.AppPromotion"/>
       <class name="com.modules.ewp.EwpProfile"/>
       <class name="com.modules.appmenu.AppMenu"/>
@@ -23,6 +24,8 @@
       <class name="com.modules.airtime.AirTimeBundleCategory"/>
       <class name="com.modules.VersionHistory"/>
       <class name="com.modules.appmenu.AppSubMenu"/>
+
+     -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
